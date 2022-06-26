@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-style: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    columns: #000;
+}
+
+ul {
+    list-style: none;
+}

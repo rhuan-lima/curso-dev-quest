@@ -1,0 +1,68 @@
+@media (max-width: 425px) {
+
+    body {
+        background: url(../images/bg-mobile.svg) no-repeat;
+        background-color: var(--primary-color);
+        background-size: contain;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .header .logo {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 30px 40px;
+    }
+    
+    .header .logo img {
+        height: 3rem;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .container-image {
+        margin: 30px;
+    }
+
+    .container .container-image img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .informations {
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .informations h2 {
+        font-weight: 600;
+        font-size: 2rem;
+        color: #fff;
+        padding: 40px 60px 10px;
+    }
+    
+    .informations p {
+        margin: 0;
+        font-weight: 200;
+        font-size: 1rem;
+        color: #fff;
+        padding: 0px 60px;
+    }
+
+    .informations .btn {
+        font-weight: 200;
+        width: 20rem;
+        height: 3.5rem;
+        font-size: 1.5rem;
+        margin: 2rem 0;
+    }
+
+    .footer .socials{
+        justify-content: center;
+        padding: 50px;
+    }
+}

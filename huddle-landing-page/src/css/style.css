@@ -1,0 +1,105 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: url(../images/bg-desktop.svg) center center no-repeat;
+    background-color: var(--primary-color);
+    font-family: 'Poppins', sans-serif;
+    background-size: cover;
+}
+
+.header .logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px 0 0 70px;
+}
+
+.header .logo img {
+    height: 4.5rem;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container-image {
+    display: flex;
+    justify-content: center;
+    margin: 40px 50px 0px 70px;
+}
+
+.container .container-image img {
+    width: 650px;
+    height: 450px;
+}
+
+.informations {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.informations h2 {
+    font-weight: 600;
+    font-size: 3rem;
+    color: #fff;
+    padding: 0px 200px 15px 0px;
+}
+
+.informations p {
+    font-weight: 200;
+    font-size: 1.6rem;
+    color: #fff;
+    padding-right: 60px;
+}
+
+.informations .btn {
+    font-weight: 600;
+    width: 17rem;
+    height: 4.5rem;
+    border-radius: 3rem;
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    background-color: #fff;
+    margin: 2rem 0;
+    cursor: pointer;
+    box-shadow: 5px 5px 15px -2px rgba(0,0,0,0.82);
+    transition: 0.2s;
+}
+
+.informations .btn:hover {
+    color: #fff;
+    background-color: var(--secondary-color);
+}
+
+.footer .socials{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 60px 20px 0;
+}
+
+.footer .socials .item {
+    font-size: 1.5rem;
+    margin-left: 15px;
+    padding: 6px 10px;
+    color: #FFF;
+    border: 1.3px solid #FFF;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+.footer .socials .item:nth-child(1) {
+    padding: 6px 14px;    
+}
+
+.footer .socials .item:hover {
+    color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+
+
+
