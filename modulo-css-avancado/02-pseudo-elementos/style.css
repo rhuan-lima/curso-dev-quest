@@ -1,0 +1,42 @@
+/* seletor::pseudo-elemento{
+    propriedade: valor;
+} */
+
+h1::first-letter{
+    color: burlywood;
+}
+
+.first-letter::first-letter{
+    color: blueviolet;
+}
+
+.first-line::first-line{
+    color: red;
+}
+
+.first-line::first-letter{
+    color: blue;
+}
+
+li::marker{
+    color: red;
+    font-size: 20px;
+}
+
+.before::before{
+    /* content: url(images/logo.jpg); */
+    content: "";
+    background: url(images/logo.jpg) center center no-repeat;
+    display: inline-block;
+    width: 85px;
+    height: 85px;
+}
+
+.after::after{
+    content: url(images/logo.jpg);
+    /* content: "";
+    background: url(images/logo.jpg) center center no-repeat;
+    display: inline-block;
+    width: 85px;
+    height: 85px; */
+}

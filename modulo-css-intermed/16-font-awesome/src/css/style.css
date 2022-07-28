@@ -1,0 +1,12 @@
+.fa-facebook {
+    color: orange;
+    font-size: 30px;
+}
+
+.fa-facebook:hover {
+    color: blue;
+}
+
+.fa-twitter:hover {
+    color: blue;
+}
